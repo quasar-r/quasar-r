@@ -1,10 +1,6 @@
 class Rec:
     def find_perm(self, str_s):
-        
         return self.perm_str(str_s)
-        
-        
-
     def perm_str(self,str_s):
         if len(str_s) == 1:
             return [str_s[-1]]
