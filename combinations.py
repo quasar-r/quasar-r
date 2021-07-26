@@ -20,7 +20,7 @@ def comb(n):
     for each in coms:
         interal_.append(each+[char])
     res.extend(interal_+coms)
-    return interal_+coms
+    return res
 x = comb(n)
 print(x)
 '''
